@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro');
+
+body{
+    
+
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Advent Pro', sans-serif;
+
+    
+}
+
+#search-box{
+    width: 70%;
+}
+
+.marginTop{
+    margin-top: 110px;
+}
+
+.search-button{
+    margin-top: 10px;
+}
+
+#result li{
+
+    list-style: none;
+    border-left: 4px solid red;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-left: -40px;
+    font-size: 25px;
+}
+
+#result li:hover{
+
+    list-style: none;
+    border-left: 4px solid green;
+    background-color: lightblue;
+    margin-top: 10px;
+    margin-left: -40px;
+    font-size: 25px;
+}
+
+#result p{
+    margin-left: 10px;
+}
+
+#result a{
+    margin-left: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#result a:hover{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+#random-wiki a{
+    color: white;
+}
+
+#random-wiki a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.wiki-logo{
+    width: 200px;
+}
+
+#search-box{
+    display: none;
+}
+
+#magnify{
+    
+    width: 100px;
+}
+
+.search{
+    margin-top: -20px;
+}
+
+.author{
+    margin-top: -10px;
+    margin-left: 90px;
+}
