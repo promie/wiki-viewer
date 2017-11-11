@@ -23,6 +23,7 @@ $(document).ready(function(){
 
     $('#magnify').on('click', function(){
         $(this).hide();
+        $('#random-wiki').hide();
         $('#search-box').show(1000);
         $('#search-button').show(1000);
         $('#clear-button').show(1000);
@@ -36,6 +37,7 @@ $(document).ready(function(){
         $('#search-button').hide(1000);
         $(this).hide(1000);
         $('#magnify').show(1000)
+        $('#random-wiki').show(1000);
         $('#search-box').val('');
     });
 
