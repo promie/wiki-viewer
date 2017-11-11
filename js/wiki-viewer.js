@@ -24,18 +24,21 @@ $(document).ready(function(){
     $('#magnify').on('click', function(){
         $(this).hide();
         $('#search-box').show(1000);
+        $('#search-button').show(1000);
         $('#search-box').val('');
+        $('#search-box').focus();
     });
 
     $('#clear-button').on('click', function(){
-        $('#result').hide(100);
-        $('#search-box').hide(100);
+        $('#result').hide(1000);
+        $('#search-box').hide(1000);
+        $('#search-button').hide(1000);
         $('#magnify').show(1000)
         $('#search-box').val('');
     });
 
-    $('#search-box').keypress(function(el){
-        if(el.which === 13){
+    $('#search-box').keypress(function(e){
+        if(e.which === 13){
             $('#search-button').click();
         }
     });
@@ -48,3 +51,4 @@ $(document).ready(function(){
     } 
           
     }); 
+

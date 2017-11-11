@@ -22,6 +22,11 @@ body{
     width: 100px;
 }
 
+#magnify:hover{
+    
+    width: 120px;
+}
+
 .search{
     margin-top: -20px;
 }
@@ -97,5 +102,9 @@ body{
 }
 
 #search-box{
+    display: none;
+}
+
+#search-button{
     display: none;
 }
