@@ -13,6 +13,7 @@ $(document).ready(function(){
                 dataType: "json",
                 success: function(data){
                     if(searchBox!==''){
+                        $('#result').html('');
                         $('#result').show();    
                         displayData(data);        
                     }
@@ -31,6 +32,12 @@ $(document).ready(function(){
         $('#search-box').hide(100);
         $('#magnify').show(1000)
         $('#search-box').val('');
+    });
+
+    $('#search-box').keypress(function(el){
+        if(el.which === 13){
+            $('#search-button').click();
+        }
     });
 
     const displayData = (data) =>{

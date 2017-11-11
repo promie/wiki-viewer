@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 
 body{
-    background-size: cover;
-    background-repeat: no-repeat;
-
     font-family: 'Advent Pro', sans-serif;   
 }
 
-#search-box{
-    width: 70%;
-}
-
+/*=====FORMATTING=====*/
 .marginTop{
     margin-top: 35px;
 }
@@ -19,6 +13,43 @@ body{
     margin-top: 10px;
 }
 
+#search-box{
+    width: 70%;
+}
+
+#magnify{
+    
+    width: 100px;
+}
+
+.search{
+    margin-top: -20px;
+}
+
+.author{
+    margin-top: -10px;
+    margin-left: 90px;
+}
+
+
+/*=====HEAD SECTION=====*/
+.github{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.github:hover{
+    font-size: 35px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/*=====MAIN SECTION=====*/
 #result li{
     list-style: none;
     border-left: 4px solid red;
@@ -67,34 +98,4 @@ body{
 
 #search-box{
     display: none;
-}
-
-#magnify{
-    
-    width: 100px;
-}
-
-.search{
-    margin-top: -20px;
-}
-
-.author{
-    margin-top: -10px;
-    margin-left: 90px;
-}
-
-.github{
-    font-size: 35px;
-    text-decoration: none;
-    color: black;
-    margin-top: 10px;
-    text-decoration: none;
-}
-
-.github:hover{
-    font-size: 35px;
-    text-decoration: none;
-    color: black;
-    margin-top: 10px;
-    text-decoration: none;
 }
