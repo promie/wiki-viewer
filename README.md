@@ -31,5 +31,11 @@ The information returns the header, information and hyperlink to the actual Wiki
 Check out the completed projected - [Wikipedia Viewer](https://promie.github.io/wiki-viewer/)
 
 ### Preview
-
+#### Preview #1
 ![alt text](https://github.com/promie/wiki-viewer/blob/master/img/preview.png "Main App")
+
+#### Preview #2
+![alt text](https://github.com/promie/wiki-viewer/blob/master/img/preview1.png "Main App")
+
+#### Preview #3
+![alt text](https://github.com/promie/wiki-viewer/blob/master/img/preview2.png "Main App")
