@@ -1,14 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Advent+Pro');
 
 body{
-    
-
     background-size: cover;
     background-repeat: no-repeat;
 
-    font-family: 'Advent Pro', sans-serif;
-
-    
+    font-family: 'Advent Pro', sans-serif;   
 }
 
 #search-box{
@@ -24,23 +20,21 @@ body{
 }
 
 #result li{
-
     list-style: none;
     border-left: 4px solid red;
     background-color: lightgray;
     margin-top: 10px;
     margin-left: -40px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #result li:hover{
-
     list-style: none;
     border-left: 4px solid green;
     background-color: lightblue;
     margin-top: 10px;
     margin-left: -40px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 #result p{
