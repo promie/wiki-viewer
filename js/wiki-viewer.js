@@ -47,8 +47,8 @@ $(document).ready(function(){
         
            $.each(data[1], function(val){
                 $('#result').append(`<li><a href="${data[3][val]}">${data[1][val]}</a><p>${data[2][val]}</p></li>`);
-           });
-    } 
-          
+            
+            });
+        }           
     }); 
 
