@@ -10,7 +10,8 @@ They are as follow:
         if(e.which === 13){
             $('#search-button').click();
         }
-    });```
+    });
+```
 
 * jQuery $.each function (similar to JS High Order Function (forEach)) and append.
 ```    const displayData = (data) =>{
@@ -19,7 +20,8 @@ They are as follow:
                 $('#result').append(`<li><a href="${data[3][val]}">${data[1][val]}</a><p>${data[2][val]}</p></li>`);
             
             });
-        }```
+        }
+```
 
 
 ### About the App

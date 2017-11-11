@@ -108,3 +108,7 @@ body{
 #search-button{
     display: none;
 }
+
+#clear-button{
+    display: none;
+}
