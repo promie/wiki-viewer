@@ -13,51 +13,49 @@
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
 	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-
+	<!-- Font Awesome-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">    
 	<link rel="stylesheet" type="text/css" href="css/wiki-viewer.css">
 
 </head>
 
 <body>
 
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-right">
+					<a href="https://github.com/promie/wiki-viewer" target="_blank"><i class="fa fa-github github" id="github" aria-hidden="true"></i></a>
+			</div>
+		</div>
+	</div>
+
         <div class="container-fluid marginTop">
                 <div class="row">
                 
-                    <div class="col-md-12  text-center">
-                        
+                    <div class="col-md-12  text-center">                    
                         <img class="wiki-logo" src="http://logodatabases.com/wp-content/uploads/2012/03/wikipedia-w-logo-1024x1024.png">	
-            
                         <h1 class="search">Wikipedia Search</h1>
                         <h4 class="author">Coded By P Yutasane</h4>
                                                     
                         <img id="magnify" src="http://www.crestwood.com/images/uploads/main/diagnose.png">
                         <input class="form-control center-block" id="search-box" />
                         
-                        </div>
+                    </div>
                         
-                        <div class="col-md-12 text-center">
-                        
-                        
-                        
+                    <div class="col-md-12 text-center">
                         <div class="btn-group">
                         <button class="btn btn-primary btn-md center-block search-button" id="random-wiki" type="button"><a href="https://en.wikipedia.org/wiki/Special:Random">RANDOM WIKI</a></button>    
                         <button class="btn btn-primary btn-md center-block search-button" id="search-button" type="button">SEARCH</button>				
                         <button class="btn btn-danger btn-md center-block search-button" id="clear-button" type="button">CLEAR</button>
-                        </div>
+                    </div>
                         
                         </div>
                     
-                    
-                    
                     <div class="col-md-12">	
-                        <ul id="result">
-                            
-                            
+                        <ul id="result">                  
                         </ul>
                         
                     </div>
