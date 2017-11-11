@@ -25,7 +25,7 @@ $(document).ready(function(){
         $(this).hide();
         $('#search-box').show(1000);
         $('#search-button').show(1000);
-        #('#clear-button').show(1000);
+        $('#clear-button').show(1000);
         $('#search-box').val('');
         $('#search-box').focus();
     });
